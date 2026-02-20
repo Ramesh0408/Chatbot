@@ -1,0 +1,13 @@
+streamlit==1.30.0
+torch>=2.1.0
+transformers>=4.40.0
+torchaudio>=2.1.0
+soundfile>=0.12.1
+sounddevice>=0.4.7
+scipy>=1.11.2
+Pillow>=10.1.0
+pytesseract>=0.3.11
+whisper==20230314
+fastapi==0.111.2
+uvicorn[standard]==0.24.0
+requests>=2.31.0
