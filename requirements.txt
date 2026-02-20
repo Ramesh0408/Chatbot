@@ -6,8 +6,8 @@ soundfile>=0.12.1
 sounddevice>=0.4.7
 scipy>=1.11.2
 Pillow>=10.1.0
-pytesseract>=0.3.11
-whisper==20230314
+pytesseract>=0.3.13
+openai-whisper>=1.1.10
 fastapi==0.111.2
 uvicorn[standard]==0.24.0
 requests>=2.31.0
