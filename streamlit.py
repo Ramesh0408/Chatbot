@@ -38,7 +38,7 @@ input_mode = st.selectbox(
 
 output_mode = st.selectbox(
     "Select Output Mode",
-    ["Text", "Audio"]
+    ["Text"]
 )
 
 
@@ -190,3 +190,4 @@ elif input_mode == "Image":
 
             st.subheader("Response Text:")
             st.write(response_text)
+
