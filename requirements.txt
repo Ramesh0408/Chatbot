@@ -1,13 +1,24 @@
+# Streamlit and web
 streamlit==1.30.0
-torch>=2.1.0
-transformers>=4.40.0
-torchaudio>=2.1.0
-soundfile>=0.12.1
-sounddevice>=0.4.7
-scipy>=1.11.2
-Pillow>=10.1.0
-pytesseract>=0.3.13
-openai-whisper>=1.1.10
 fastapi==0.111.2
-uvicorn[standard]==0.24.0
-requests>=2.31.0
+uvicorn==0.23.2
+
+# Torch ecosystem
+torch==2.1.0
+torchaudio==2.1.0
+
+# Transformers and Whisper
+transformers==4.44.0
+openai-whisper==1.1.10
+
+# Audio & signal processing
+soundfile==0.12.1
+sounddevice==0.4.7
+scipy==1.11.2
+
+# Image processing
+Pillow==10.1.0
+pytesseract==0.3.13
+
+# Optional utilities
+rich==14.3.3
